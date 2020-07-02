@@ -312,7 +312,6 @@ length(someothervector)
 unique(someothervector)
 ```
 
---
 ### table : gives you list of all elements and counts them  
 
 ```{r}
@@ -330,33 +329,6 @@ sd(someothervector)
 summary(someothervector)
 ```
 
-
----
-
-## more random math:  
-
-### sample - gives you random numbers from a vector
-```{r}
-sample(1:100, 10)
-```
-
---
-
-### rnorm - gives you 10 random numbers from normal distribution with mean=0 and sd=1  
-
-```{r}
-rnorm(10, mean = 0, sd = 1)
-```
-
---
-
-analogously, rpois, runif
-
-```{r,eval=FALSE}
-runif(n = 10, min=10, max=20)
-```
-
----
 ## Exercise!  
 
 What will the following  produce? 
