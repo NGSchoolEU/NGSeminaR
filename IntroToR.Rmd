@@ -20,16 +20,17 @@ output: html_document
 ```
 
 
-### What can we do with R? 
-
--  We can use R as a calculator!  
-
 ### Try it:  
      
 Add a new chunk (ctrl + ALT + i).   
-Calculate the result of  13%%3. 
-( 13/3 = 4*3+1 )
+Calculate the result of  13%%3. 12%%3, 15%%3.
+Can you guess what does %% do?
 
+What have we learned so far:
+
+### What can we do with R? 
+
+-  We can use R as a calculator!  
 
 *We can even do better than that...* 
 
