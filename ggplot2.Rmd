@@ -287,13 +287,17 @@ Hint: Jitter the points!
 
 ```{r, fig.width=6, fig.height=6, fig.align='center'}
 df <- data.table::fread("http://hex.bioinfo.hr/~mfabijanic/df.txt", header=TRUE, fill=T)
-colnames(df) <- "recommendation"
-df$recommend <- factor(df$recommendation, levels=c("Strongly no","No", "Maybe", "Yes", "Strongly yes"))
+colnames(df) <- "recommend"
+df$recommend <- factor(df$recommend, levels=c("Strongly no","No", "Maybe", "Yes", "Strongly yes"))
 ```
-These are the colors from Strongly yes to Strongly no:
-c("#1a9641", "#a6d96a", "#ffffbf", "#fdae61","#d7191c")
 
+These are the colors from Strongly no to Strongly yes:
+c("#d7191c", "#fdae61", "#ffffbf", "#a6d96a","#1a9641")
 
+Hints: 
+- to set the x axis limits you want to show on x axis set the limits in scale_x_discrete()
+- use scale_XXX_manual to change the colors manually. (breaks and values)
+- what will happen if you use color insteads of fill on barplot?
 
 ```{r, eval=FALSE}
 library(plotly)
