@@ -7,15 +7,19 @@ output: html_document
 
 # R, Rstudio, Rmd
 
----
 ### How can we use R and RStudio?  
 
 - console   
 - script   
 - notebook:   
-     new chunk: ctrl + ALT + i 
+     new chunk: ctrl + ALT + i (ctrl+left alt+i)
 
---
+```{r}
+1+1
+
+```
+
+
 ### What can we do with R? 
 
 -  We can use R as a calculator!  
@@ -23,7 +27,7 @@ output: html_document
 ### Try it:  
      
 Add a new chunk (ctrl + ALT + i).   
-Calculate the result of 13%/%3 and 13%%3. 
+Calculate the result of  13%%3. 
 ( 13/3 = 4*3+1 )
 
 
@@ -76,7 +80,7 @@ myFirstVector <- c("some words","p","word", "last one")
 myFirstSequence <- 1:4
 ```
 
----
+
 
 ## Subsetting [ ]
 
@@ -93,7 +97,7 @@ myFirstVector[3]
 myFirstSequence[3]
 ```
 
----
+
 
 ### Access multiple elements:  
 
@@ -122,7 +126,7 @@ somePositions
 myFirstVector[somePositions]
 ```
 
----
+
 
 ### Access multiple elements:  
 
@@ -144,7 +148,7 @@ myFirstVector[someLogicalVector]
 ```
 
 
----
+
 
 ### Exercise! 
 
@@ -157,7 +161,7 @@ Solution:
 CTRL+Alt+i will insert a new chunk  
 
 
----
+
 
 ### Think about it!
 
@@ -189,7 +193,7 @@ someothervector
 someothervector * 0.5
 ```
 
----
+
 
 #### Multiplication by other vector:
 
@@ -211,7 +215,7 @@ someothervector*c(0.3,0.1)
 c(1,2,3,4,5,6) * 1:2 # doesnt produce a warning c(1,2,3,4,5,6) * c(1,2, 1,2, 1,2)
 ```
 
----
+
 
 ### Basic comparisons  
 
@@ -241,7 +245,7 @@ someothervector[someothervector>0]
 ```
 *remember: subsetting by logical indices returns ELEMENTS on POSITIONS WHICH ARE TRUE*
 
----
+
 ### Exercise: Multiplication, recycling and comparison.   
 1. Multiply your myvector by c(0.1, 0.2)  
      -> what do you expect to get??
@@ -252,7 +256,7 @@ Solution:
 (get new chunk by ctrl+alt+i)
 
 
----
+
 
 ### Exercise: Multiplication, recycling and comparison.   
 1. Return only ELEMENTS in myvector that are smaller then 17.
@@ -297,7 +301,7 @@ extra:
 ## Functions 
 #### Some useful functions  
 
----
+
 
 ### length - Gives you the length of the vector:    
 
@@ -318,7 +322,7 @@ unique(someothervector)
 table(someothervector)
 ```
 
----
+
 ## Math:  
 
 
