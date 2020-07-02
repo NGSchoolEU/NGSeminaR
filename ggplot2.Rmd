@@ -18,19 +18,6 @@ library(data.table)
 library(ggplot2)
 ```
 
-
-###Tidy data
-
-
-**Tidy data makes it analysis easier to do, faster to check, easier to plot and to reuse for other analysis. If you have a messy data set and you think that it is exactly what you need, you will most likely use it only once -for one analysis and a single graph.**  
-
-```
-1. Each variable forms a column.
-2. Each observation forms a row.
-3. Each type of observational unit forms a table.
-```
-
-
 ```{r}
 tidy <- fread("http://hex.bioinfo.hr/~mfabijanic/tidyData.txt", header=T)
 tidy
@@ -56,8 +43,6 @@ Variable types:
 ggplot(tidy, aes(Continent))+geom_bar()+theme_light()
 
 ```
-
-]
 
 Quantitative variables example: Height
 
@@ -89,7 +74,7 @@ ggplot(tidy, aes(Gender, Height, fill=Gender))+geom_boxplot(alpha=0.3)+theme_lig
 
 
 
-Violin plot:  
+        Violin plot:  
 
 ```{r}
 ggplot(tidy, aes(Gender, Height, fill=Gender))+geom_violin(alpha=0.3)+theme_light()
@@ -104,7 +89,7 @@ ggplot(tidy, aes(Gender))+geom_bar()+theme_light()
 ```
     
 
-Barplot:  
+        Barplot:  
   
 
 ```{r, echo=FALSE}
@@ -112,7 +97,6 @@ ggplot(tidy, aes(Gender, Height, fill=Continent))+geom_bar(stat="identity")+them
 ```
 
 
----
 ###ggplot2 VS base R plots  
 
 
@@ -125,7 +109,6 @@ ggplot(iris, aes(Sepal.Length, Petal.Length, color=Species)) +
     geom_point()+theme_light()
 ```
 
----
 ### ggplot2 
 
 
@@ -151,7 +134,6 @@ There are different types of plots and they are used based on different data tha
 
 
 
----
 ### Basic ggplot logic: ggplot(data, aes(x,y))
 
 The ggplot() object acts as a storage facility for the data. It is here where we define the data frame that houses the x and y coordinate values themselves and instructions on how to split the data. There are three ways to initialise a ggplot() object:  
@@ -166,7 +148,6 @@ Displaying the object p generated in the code chunk above would result in Error:
 
 
 
----
 ### Mapping aesthetics to data  
 
 The aes() aesthetic mapping function lives inside a ggplot object and is where we specify the set of plot attributes that remain constant throughout the subsequent layers (unless overwritten more on this later).  
@@ -180,8 +161,6 @@ geoms is the what the data looks like. These are geometrical objects stored in s
 
 
 We use the + operator to construct. By appending layers we can connect the "how" (aesthetics) to the "what" (geometric objects). Adding geometric, scale, facet and statistic layers to a ggplot() object is how to control virtually every visual aspect of the plot from the data contained in the object.  
-
----
 
 ### Adding a geometric object layer  
 
@@ -199,8 +178,6 @@ Appending a facet layer to a ggplot generates the same plot for different subset
 ### Statistics  
 
 Exploratory data analysis can be done using the base packages in R, the results of which can be added to a ggplot() in the guise of a geom layer.  
-
----
 
 ### Example : Basic layout  
 
@@ -292,51 +269,6 @@ p4 + ???
      
 ```
 
----
-###Example 2: do some more magic! - solved  
-
-
-```{r}
-p4 + facet_wrap(~Species)
-     
-```
-
-
-### Example 3: back to basics - FILL  
-
-```{r, fig.width=6, fig.height=6, fig.align='center'}
-set.seed(200)
-smallIris <- iris[sample(1:150,20),]
-smallIris$Flower <- rep(c("Female","Male"),c(15,5))
-```
-
-```{r, fig.width=5, fig.height=5, fig.align='center'}
-ggplot(smallIris, aes(Flower))+
-    geom_bar()
-```
-
-
----
-### Example 3: back to basics - FILL  
-
-```{r, fig.width=6, fig.height=6}
-ggplot(smallIris, 
-       aes(Flower, fill=Species))+
-    geom_bar()
-```
-
-```{r, fig.width=6, fig.height=6}
-ggplot(smallIris, 
-       aes(Flower,fill=Species))+
-    geom_bar(position="fill")+
-    xlab("X label") + 
-    ylab("Y label") + 
-    theme_light()
-```
-
-
-
----
 ###Exercise: Recreate the plots included in the repository!  
 
 1. easier:
