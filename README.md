@@ -9,6 +9,6 @@ If you prefer, you can install [R](https://cloud.r-project.org/) and [Rstudio De
 Once you log in to Rstudio cloud go to your workspace and open:
 New Proect -> New project from Git Repo.
 copy the path to this repository. 
-[!img1](https://github.com/NGSchoolEU/NGSeminaR/blob/master/newprojectfromgitrepo.PNG?raw=true)
+![img1](https://github.com/NGSchoolEU/NGSeminaR/blob/master/newprojectfromgitrepo.PNG?raw=true)
 
 
