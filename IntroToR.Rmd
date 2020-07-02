@@ -329,26 +329,6 @@ sd(someothervector)
 summary(someothervector)
 ```
 
-## Exercise!  
-
-What will the following  produce? 
-
-     x=seq(1,6, by=2) 
-     x[x>4]           
-     mean(x)          
-     median(x)  
-     x[c(T,F)]  
-     rev(x)  
-
-Create a sequence of numbers from 1 to 1000 and save it in a vector myseq.  
-
-Part 1: What is the mean of the elements which are larger then the median?  
-
-Part 2: What is the sum of every second element?  
-
-Part 3: sum all the elements pairwise by summing the first one with the last one,
-second one with second to last, and so on.
-
 
 ### HELP!!??!!
 
