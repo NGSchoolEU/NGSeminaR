@@ -77,7 +77,7 @@ factors
 You can make a vector by using the function c() (concatenate). Here is an example of vectors myFirstvector, and myFirstSequence:
 
 ```{r}
-myFirstVector <- c("some words","p","word", "last one")
+myFirstVector <- c("some words","p","awesome", "last one")
 myFirstSequence <- 1:4
 ```
 
