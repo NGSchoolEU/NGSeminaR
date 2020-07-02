@@ -55,100 +55,10 @@ myFirstNumber
 ### Data structures in R  
 
 vectors  
-list
 matrix  
 data.frame  
+list
 factors  
-
----
-### Vectors 
-
-```{r}
-nVec <- c(1, 5, 7, 9, 12.5) # numeric vector
-cVec <- c("a", "b", "some words") # character vector
-lVec <- c(TRUE, FALSE, T, T, F) # logical vector
-vvec <- c(1,5, "word")
-vvec
-```
-
-```{r}
-nVec
-cVec
-lVec
-```
-
----
-
-### Matrices  
-
-Matrices are tables that have rows and columns and store elements of same type.
-```{r}
-y <- matrix(1:20, nrow=5,ncol=4)
-y
-```
-
-
----
-
-### Data frames
-
-```{r}
-mydf <- data.frame( firstColumn = c(1,5,7),
-                    secondColumn = c("a","b","third Element"))
-mydf
-```
-
----
-
-### Lists
-
-
-```{r}
-l <- list(firstElement = c(1,5,44,6),
-          second = c("a", 3),
-          y)
-l
-```
-
----
-
-### Factors  
-
-If something is weird, factors are the usual suspects.. 
-
-
-```{r}
-xx <- factor(sample(1:15,20, replace = T))
-xx
-```
-
---
-
-If you want a normal numeric vector:
-```{r}
-vvec
-nvvec <- as.numeric(vvec)
-nvvec
-```
-
-
-
-```{r}
-xx
-
-```
-```{r}
-numericxx <- as.numeric(xx)
-numericxx
-```
-
---
-
-you should do this... 
-
-```{r}
-as.numeric(as.character(xx))
-```
 
 
 # Vectors
@@ -353,33 +263,11 @@ Solution:
 myvector[ ??? ]
 
 ```
-
-
-
-
----
-
 ### Logical operators
 
 AND: & 
-
-```{r, echo=FALSE}
-data.frame('first_second'=c(TRUE, FALSE),
-           'TRUE'=c(TRUE, FALSE),
-           'FALSE'=c(FALSE, FALSE))
-```
-
 OR: |  
-
-```{r, echo=FALSE}
-data.frame('first_second'=c(TRUE, FALSE),
-           'TRUE'=c(TRUE, TRUE),
-           'FALSE'=c(TRUE, FALSE))
-```
-
 NOT: ! 
-TRUE -> FALSE  
-FALSE -> TRUE 
 
 They are used in a following way: 
 
@@ -391,7 +279,6 @@ firstLogical | secondLogical
 ! firstLogical
 ```
 
----
 
 ### Exercise: Subset by logical indexes
 
@@ -498,33 +385,3 @@ second one with second to last, and so on.
 example(runif)
 ```
 
----
-
-
-### Super extra if you are really bored with subetting and want some challenge
-
-###  Exercise - estimate pi
-Do the following: 
-
-#### Create random points in 2D:  
-
-
-1. Make a vector x with 1 000 000 random numbers uniformly distributed from -1 to 1.  
-2. Make another vector y with 1 000 000 random numbers uniformly distributed from -1 to 1.  
-
-Calculate percentage of points that fall within the circle:  
-Calculate distance from center for each point!  
-
-3. Create a vector dist that will calculate the result of x^2 + y^2   
-4. Create a logical vector insideCircle that will check if dist is smaller then 1^2
-5. Calculate the ratio of points that fall into the circle.  
-
-     Useful functions:
-     
-     length(x) : vector length  
-     as.numeric(x): conversion to num  
-     mean(x): mean of all values in x
-     
-
-
-pi = 3.1415926535...  
