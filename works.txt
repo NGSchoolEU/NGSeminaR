@@ -1,0 +1,160 @@
+Participant,Gender,Background,Position,Lecturer,Grade,GradeNumerical
+1,Female,More dry lab,PostDoc,Lecturer_6,Good,2
+2,Male,More dry lab,MSc,Lecturer_6,Below average,4
+3,Male,More dry lab,MSc,Lecturer_6,Good,2
+4,Male,More dry lab,PostDoc,Lecturer_6,Good,2
+5,Male,More dry lab,MSc,Lecturer_6,Below average,4
+6,Female,More dry lab,MSc,Lecturer_6,Excellent,1
+7,Male,More dry lab,PhD,Lecturer_6,Good,2
+8,Male,More dry lab,MSc,Lecturer_6,Average,3
+9,Female,More dry lab,MSc,Lecturer_6,Average,3
+10,Female,More wet lab,MSc,Lecturer_6,Average,3
+11,Female,More dry lab,MSc,Lecturer_6,Good,2
+12,Female,More wet lab,PhD,Lecturer_6,Good,2
+13,Male,More wet lab,MSc,Lecturer_6,Average,3
+14,Male,More wet lab,PhD,Lecturer_6,Below average,4
+15,Male,More wet lab,MSc,Lecturer_6,Excellent,1
+16,Female,More dry lab,MSc,Lecturer_6,Good,2
+17,Male,More wet lab,PostDoc,Lecturer_6,Below average,4
+18,Male,More dry lab,PhD,Lecturer_6,Good,2
+19,Male,More dry lab,Industry specialist,Lecturer_6,Good,2
+20,Female,More wet lab,PhD,Lecturer_6,Average,3
+21,Male,More dry lab,MSc,Lecturer_6,Excellent,1
+22,Female,More dry lab,PhD,Lecturer_6,Good,2
+23,Female,More dry lab,MSc,Lecturer_6,Excellent,1
+24,Female,More dry lab,PhD,Lecturer_6,Good,2
+25,Male,More wet lab,MSc,Lecturer_6,Good,2
+26,Female,More dry lab,PhD,Lecturer_6,Good,2
+27,Male,More wet lab,PhD,Lecturer_6,Below average,4
+28,Male,More dry lab,MSc,Lecturer_6,Excellent,1
+1,Female,More dry lab,PostDoc,Lecturer_2,Excellent,1
+2,Male,More dry lab,MSc,Lecturer_2,Excellent,1
+3,Male,More dry lab,MSc,Lecturer_2,Average,3
+4,Male,More dry lab,PostDoc,Lecturer_2,Excellent,1
+5,Male,More dry lab,MSc,Lecturer_2,Excellent,1
+6,Female,More dry lab,MSc,Lecturer_2,Excellent,1
+7,Male,More dry lab,PhD,Lecturer_2,Good,2
+8,Male,More dry lab,MSc,Lecturer_2,Excellent,1
+9,Female,More dry lab,MSc,Lecturer_2,Excellent,1
+10,Female,More wet lab,MSc,Lecturer_2,Good,2
+11,Female,More dry lab,MSc,Lecturer_2,Excellent,1
+12,Female,More wet lab,PhD,Lecturer_2,Good,2
+13,Male,More wet lab,MSc,Lecturer_2,Good,2
+14,Male,More wet lab,PhD,Lecturer_2,Good,2
+15,Male,More wet lab,MSc,Lecturer_2,Excellent,1
+16,Female,More dry lab,MSc,Lecturer_2,Excellent,1
+17,Male,More wet lab,PostDoc,Lecturer_2,Good,2
+18,Male,More dry lab,PhD,Lecturer_2,Good,2
+20,Female,More wet lab,PhD,Lecturer_2,Excellent,1
+21,Male,More dry lab,MSc,Lecturer_2,Good,2
+22,Female,More dry lab,PhD,Lecturer_2,Excellent,1
+23,Female,More dry lab,MSc,Lecturer_2,Excellent,1
+24,Female,More dry lab,PhD,Lecturer_2,Average,3
+25,Male,More wet lab,MSc,Lecturer_2,Excellent,1
+26,Female,More dry lab,PhD,Lecturer_2,Excellent,1
+27,Male,More wet lab,PhD,Lecturer_2,Good,2
+28,Male,More dry lab,MSc,Lecturer_2,Excellent,1
+1,Female,More dry lab,PostDoc,Lecturer_4,Good,2
+2,Male,More dry lab,MSc,Lecturer_4,Good,2
+3,Male,More dry lab,MSc,Lecturer_4,Good,2
+4,Male,More dry lab,PostDoc,Lecturer_4,Excellent,1
+5,Male,More dry lab,MSc,Lecturer_4,Good,2
+6,Female,More dry lab,MSc,Lecturer_4,Excellent,1
+7,Male,More dry lab,PhD,Lecturer_4,Excellent,1
+8,Male,More dry lab,MSc,Lecturer_4,Good,2
+9,Female,More dry lab,MSc,Lecturer_4,Good,2
+10,Female,More wet lab,MSc,Lecturer_4,Good,2
+11,Female,More dry lab,MSc,Lecturer_4,Excellent,1
+12,Female,More wet lab,PhD,Lecturer_4,Excellent,1
+13,Male,More wet lab,MSc,Lecturer_4,Excellent,1
+14,Male,More wet lab,PhD,Lecturer_4,Excellent,1
+15,Male,More wet lab,MSc,Lecturer_4,Excellent,1
+16,Female,More dry lab,MSc,Lecturer_4,Good,2
+17,Male,More wet lab,PostDoc,Lecturer_4,Excellent,1
+18,Male,More dry lab,PhD,Lecturer_4,Good,2
+19,Male,More dry lab,Industry specialist,Lecturer_4,Good,2
+20,Female,More wet lab,PhD,Lecturer_4,Excellent,1
+21,Male,More dry lab,MSc,Lecturer_4,Good,2
+22,Female,More dry lab,PhD,Lecturer_4,Good,2
+23,Female,More dry lab,MSc,Lecturer_4,Excellent,1
+24,Female,More dry lab,PhD,Lecturer_4,Excellent,1
+25,Male,More wet lab,MSc,Lecturer_4,Excellent,1
+26,Female,More dry lab,PhD,Lecturer_4,Average,3
+27,Male,More wet lab,PhD,Lecturer_4,Good,2
+28,Male,More dry lab,MSc,Lecturer_4,Excellent,1
+1,Female,More dry lab,PostDoc,Lecturer_3,Excellent,1
+2,Male,More dry lab,MSc,Lecturer_3,Good,2
+3,Male,More dry lab,MSc,Lecturer_3,Excellent,1
+4,Male,More dry lab,PostDoc,Lecturer_3,Excellent,1
+5,Male,More dry lab,MSc,Lecturer_3,Excellent,1
+7,Male,More dry lab,PhD,Lecturer_3,Good,2
+8,Male,More dry lab,MSc,Lecturer_3,Excellent,1
+9,Female,More dry lab,MSc,Lecturer_3,Excellent,1
+10,Female,More wet lab,MSc,Lecturer_3,Good,2
+11,Female,More dry lab,MSc,Lecturer_3,Excellent,1
+12,Female,More wet lab,PhD,Lecturer_3,Good,2
+13,Male,More wet lab,MSc,Lecturer_3,Excellent,1
+14,Male,More wet lab,PhD,Lecturer_3,Excellent,1
+16,Female,More dry lab,MSc,Lecturer_3,Excellent,1
+17,Male,More wet lab,PostDoc,Lecturer_3,Excellent,1
+18,Male,More dry lab,PhD,Lecturer_3,Excellent,1
+19,Male,More dry lab,Industry specialist,Lecturer_3,Average,3
+20,Female,More wet lab,PhD,Lecturer_3,Excellent,1
+21,Male,More dry lab,MSc,Lecturer_3,Excellent,1
+22,Female,More dry lab,PhD,Lecturer_3,Good,2
+24,Female,More dry lab,PhD,Lecturer_3,Good,2
+25,Male,More wet lab,MSc,Lecturer_3,Excellent,1
+26,Female,More dry lab,PhD,Lecturer_3,Good,2
+27,Male,More wet lab,PhD,Lecturer_3,Excellent,1
+28,Male,More dry lab,MSc,Lecturer_3,Excellent,1
+1,Female,More dry lab,PostDoc,Lecturer_1,Excellent,1
+2,Male,More dry lab,MSc,Lecturer_1,Good,2
+4,Male,More dry lab,PostDoc,Lecturer_1,Excellent,1
+5,Male,More dry lab,MSc,Lecturer_1,Excellent,1
+6,Female,More dry lab,MSc,Lecturer_1,Excellent,1
+7,Male,More dry lab,PhD,Lecturer_1,Good,2
+8,Male,More dry lab,MSc,Lecturer_1,Good,2
+9,Female,More dry lab,MSc,Lecturer_1,Excellent,1
+10,Female,More wet lab,MSc,Lecturer_1,Good,2
+11,Female,More dry lab,MSc,Lecturer_1,Good,2
+12,Female,More wet lab,PhD,Lecturer_1,Excellent,1
+13,Male,More wet lab,MSc,Lecturer_1,Excellent,1
+14,Male,More wet lab,PhD,Lecturer_1,Excellent,1
+16,Female,More dry lab,MSc,Lecturer_1,Good,2
+17,Male,More wet lab,PostDoc,Lecturer_1,Excellent,1
+18,Male,More dry lab,PhD,Lecturer_1,Below average,4
+19,Male,More dry lab,Industry specialist,Lecturer_1,Average,3
+20,Female,More wet lab,PhD,Lecturer_1,Excellent,1
+21,Male,More dry lab,MSc,Lecturer_1,Good,2
+22,Female,More dry lab,PhD,Lecturer_1,Good,2
+23,Female,More dry lab,MSc,Lecturer_1,Good,2
+24,Female,More dry lab,PhD,Lecturer_1,Good,2
+25,Male,More wet lab,MSc,Lecturer_1,Excellent,1
+26,Female,More dry lab,PhD,Lecturer_1,Excellent,1
+27,Male,More wet lab,PhD,Lecturer_1,Excellent,1
+28,Male,More dry lab,MSc,Lecturer_1,Good,2
+1,Female,More dry lab,PostDoc,Lecturer_5,Average,3
+3,Male,More dry lab,MSc,Lecturer_5,Below average,4
+4,Male,More dry lab,PostDoc,Lecturer_5,Below average,4
+5,Male,More dry lab,MSc,Lecturer_5,Average,3
+6,Female,More dry lab,MSc,Lecturer_5,Good,2
+7,Male,More dry lab,PhD,Lecturer_5,Below average,4
+8,Male,More dry lab,MSc,Lecturer_5,Below average,4
+9,Female,More dry lab,MSc,Lecturer_5,Average,3
+10,Female,More wet lab,MSc,Lecturer_5,Good,2
+11,Female,More dry lab,MSc,Lecturer_5,Good,2
+12,Female,More wet lab,PhD,Lecturer_5,Average,3
+13,Male,More wet lab,MSc,Lecturer_5,Below average,4
+14,Male,More wet lab,PhD,Lecturer_5,Average,3
+16,Female,More dry lab,MSc,Lecturer_5,Average,3
+17,Male,More wet lab,PostDoc,Lecturer_5,Extremely bad,5
+18,Male,More dry lab,PhD,Lecturer_5,Extremely bad,5
+19,Male,More dry lab,Industry specialist,Lecturer_5,Good,2
+21,Male,More dry lab,MSc,Lecturer_5,Average,3
+22,Female,More dry lab,PhD,Lecturer_5,Average,3
+23,Female,More dry lab,MSc,Lecturer_5,Average,3
+24,Female,More dry lab,PhD,Lecturer_5,Average,3
+25,Male,More wet lab,MSc,Lecturer_5,Average,3
+26,Female,More dry lab,PhD,Lecturer_5,Average,3
+27,Male,More wet lab,PhD,Lecturer_5,Extremely bad,5
+28,Male,More dry lab,MSc,Lecturer_5,Below average,4

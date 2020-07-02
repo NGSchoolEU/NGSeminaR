@@ -1,0 +1,143 @@
+Gender,Age,Continent,Height,Weight
+female,18,Asia,186,72
+female,18,Europe,160,77
+female,18,Europe,156,88
+female,18,Europe,189,61
+female,18,Europe,160,67
+female,18,Europe,178,65
+female,18,Europe,157,89
+female,18,North America,181,82
+female,19,Europe,164,62
+female,19,North America,179,87
+female,19,North America,188,69
+female,20,Europe,184,65
+female,21,Asia,162,90
+female,21,Europe,166,78
+female,21,Europe,179,70
+female,21,Europe,157,80
+female,22,Europe,168,84
+female,22,Europe,174,58
+female,22,Europe,182,77
+female,22,North America,158,87
+female,23,Europe,157,83
+female,23,Europe,190,64
+female,24,Europe,187,82
+female,24,Europe,160,61
+female,24,Europe,184,55
+female,24,North America,164,89
+female,24,North America,169,90
+female,25,Europe,188,83
+female,25,North America,179,67
+female,25,North America,178,76
+female,26,Europe,168,88
+female,26,Europe,179,64
+female,26,Europe,155,73
+female,26,Europe,160,68
+female,27,Asia,170,64
+female,27,Europe,173,59
+female,27,Europe,186,82
+female,27,Europe,164,87
+female,27,North America,186,57
+female,28,Asia,166,77
+female,28,Europe,175,85
+female,28,Europe,163,63
+female,29,Asia,164,73
+female,29,Europe,159,75
+female,29,Europe,184,85
+female,29,North America,166,65
+female,29,North America,170,67
+female,29,North America,167,81
+female,29,North America,181,66
+female,30,Europe,166,87
+female,30,North America,161,78
+female,30,North America,181,57
+female,31,Europe,166,77
+female,32,Europe,156,78
+female,32,Europe,169,87
+female,33,Europe,174,75
+female,33,Europe,166,77
+female,33,North America,174,89
+female,33,North America,158,90
+female,34,Europe,167,79
+female,34,Europe,188,57
+female,34,Europe,186,80
+female,34,Europe,177,75
+female,34,North America,164,66
+female,34,North America,171,62
+female,35,Asia,183,84
+female,35,Europe,167,79
+female,35,North America,182,90
+female,35,North America,166,72
+female,35,North America,190,78
+male,18,Europe,188,69
+male,18,Europe,175,73
+male,18,North America,188,68
+male,18,North America,184,75
+male,18,North America,166,74
+male,19,Asia,159,80
+male,19,Europe,184,58
+male,19,Europe,189,79
+male,19,Europe,185,81
+male,19,North America,186,77
+male,20,Europe,170,89
+male,20,Europe,178,90
+male,20,North America,169,68
+male,20,North America,180,75
+male,20,North America,166,78
+male,21,Europe,172,76
+male,22,Europe,183,86
+male,22,Europe,158,70
+male,22,North America,174,73
+male,22,North America,186,81
+male,23,Asia,186,72
+male,23,Europe,160,65
+male,24,North America,177,73
+male,24,North America,187,67
+male,25,Europe,182,79
+male,25,North America,185,82
+male,25,North America,168,84
+male,26,Asia,180,73
+male,26,Asia,190,70
+male,26,Europe,190,77
+male,26,Europe,186,87
+male,26,North America,179,76
+male,26,North America,176,58
+male,27,Europe,188,85
+male,27,Europe,158,81
+male,27,Europe,186,56
+male,27,Europe,157,90
+male,27,North America,172,67
+male,27,North America,162,66
+male,28,Europe,175,80
+male,28,Europe,162,85
+male,28,Europe,183,72
+male,28,Europe,183,71
+male,28,North America,175,80
+male,29,Europe,164,74
+male,29,North America,190,86
+male,30,Europe,185,71
+male,30,Europe,186,58
+male,30,Europe,162,57
+male,30,North America,156,78
+male,31,Asia,182,88
+male,31,Europe,182,89
+male,31,Europe,180,83
+male,31,Europe,170,69
+male,31,Europe,178,84
+male,31,North America,186,57
+male,32,Asia,187,87
+male,32,Europe,180,58
+male,32,Europe,170,55
+male,32,North America,157,79
+male,32,North America,188,56
+male,32,North America,174,86
+male,33,Europe,172,90
+male,33,Europe,166,81
+male,33,Europe,172,87
+male,33,Europe,184,67
+male,33,North America,183,86
+male,34,Europe,174,78
+male,34,Europe,159,61
+male,34,North America,169,68
+male,34,North America,178,58
+male,34,North America,188,62
